@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import random
 class MyLineReg():
-
-    def __init__(self, weights=None, n_iter=100, learning_rate=0.1, metric=None, reg=None, l1_coef=0, l2_coef=0, sgd_sample=None, random_state=42):
+# Инициализация класса
+    def __init__(self, weights=None, n_iter=100, learning_rate=0.1, metric=None, reg=None, l1_coef=0, l2_coef=0, sgd_sample=None, random_state=42):# Установка значений параметров по умолчанию
         self.n_iter = n_iter
         self.learning_rate = learning_rate
         self.weights = weights
@@ -14,21 +14,21 @@ class MyLineReg():
         self.sgd_sample = sgd_sample
         self.random_state = random_state
         self.best_score = None
-
+ # Метод преобразования объекта в строку
     def __str__(self):
         return f'MyLineReg class: n_iter={self.n_iter}, learning_rate={self.learning_rate}, reg={self.reg}, l1_coef={self.l1_coef}, l2_coef={self.l2_coef}, sgd_sample={self.sgd_sample}, random_state={self.random_state}'
-
+# Метод для представления объекта в формате строки
     def __repr__(self):
         return f'MyLineReg class: n_iter={self.n_iter}, learning_rate={self.learning_rate}, reg={self.reg}, l1_coef={self.l1_coef}, l2_coef={self.l2_coef}, sgd_sample={self.sgd_sample}, random_state={self.random_state}'
-
+# Получение коэффициентов модели
     def get_coef(self):
         return self.weights[1:]
-
+ # Прогнозирование значений по модели
     def predict(self, X):
         X_with_intercept = pd.concat([pd.Series(1, index=X.index, name='w0'), X], axis=1)
         y_pr = X_with_intercept @ self.weights
         return y_pr
-    
+# Обучение модели    
     def fit(self, X, y, verbose=False):
         X_with_intercept = pd.concat([pd.Series(1, index=X.index, name='w0'), X], axis=1)
         self.weights = np.ones(X_with_intercept.shape[1])
@@ -97,6 +97,6 @@ class MyLineReg():
 
         if self.metric is not None:
             self.best_score = metric_val
-
+# Получение лучшего значения метрики
     def get_best_score(self):
         return round(self.best_score, 10)
