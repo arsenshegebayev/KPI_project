@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "kolesa-android-app",
+  "private_key_id": "715adc9bdf267de69adcfb2d9028305d625b1c5a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCpEq3diArINOtM\n5ePUd5G2SLTphVX1QNz/6wkq5o8HhwviO7H+6qFmGlDmyy4cYu2dosWgWUifAcH7\n+Uw90vrid4VbUv6S/FHfDAOi4SIXqXIa6NR4N8vPfajE03oPHpm2hOWD8883dgmx\nUMbmqzGMy/plOM0+uHU5n4kXpFYUC8xzEmsnPigAdvF09wwJvRA4mE0+eusgwDMd\n4wged6UVIvs3RYmN9pUQRu065pc2G0acdAsk2ObnbAEDm/WpiKY7W0cLsK9vqfCV\ncJDg25alNw+uEDbkuXU7IOgWx7vFJzOeId+GoBz8gU+gpkVDPTfFdX3E4qxF1Qix\nJrNVyRQPAgMBAAECggEATE2Sy/zeqNZBLzY9KSFBUJvlkdJMJeA9HP5s58Cf4kzP\nTy2TujEX4CWWR2KBD+yRwme4exJwVNqNOnObNfempFg+hiWhoKJhLKGWbobeRQGC\n7qQPZ6X+xEi4xwON/Y7Y3meB0ZhR93y9CRokeeve8+UGv3HwJxNGTFg0ncfb1TV1\n6BVMDclasSY0ZrxkrERo84DOkQhUMRi+stukqUxv+ikwE7a/5m6jrjC1HUhgCoDi\nnhPBoEJ1mkBjYETZe+CcNKuWWQTwe9zY+BQPsZHMMsgyBy7j8SDNxa9hPdIZnaiM\nXqhBsdtADqAt2MUKfL5pmpFPV8B17DdX8UztoZ3KWQKBgQDbMqBbjqarZlLbV3Qt\n+ERnSLRH6ezsmyzN61C/FxJdeHXFYEOKmbmo5dtiv9AVt3AWeCIs7ayX54mrc9xk\nQGo+33BiVysrwSLS6yQuGgr6Wr6lS6TrBmebiubWIQUYtMztAr2vXLa/kNQzlTjU\nriETtsCnorYv23o1n2S/oVo+PQKBgQDFdaGNQQoCr9LVaIDNzsfshxODIzYWmyMI\nczK5trWZZm6T9ZJIyp5G9kkQXvHvH/QeACMY0ifM4sR8LRVwq3GvXozyopOTM9ox\nDczgeSDvNFFfcNb1oEny5+oI2Bqh44rXQzJCygKw+NWsVr0nTtRDfDt0Suhcw/qX\nuPjPcVdsOwKBgQCiWiwVxGHEX+SM24iMp+8aROpqvWOjmAemeV10O8V5f8hTKcq8\n9MFjzOQijwmznAukSNSfTGbimDcKy6T4iBFpght+ayvpm4KMkGda0iVBa0b7rTx4\na2T/+vCgtxJMS1XhUn9mTJh66O2TSzotpM+RB3JId6bTaY9p+iYoHX12zQKBgAHC\ncpYXpkcv2ekc7UjoNs/cxEe+4JSC/WTt4d3Vyvh6+TFIVu1fINnxB+WlcvJ2jm5W\nAfoOpVwmCSoyHKbMYE73wLnIyRfetmsJfHHjom9/P9ph3wiBTSdk+ajqhBI9PNd+\nOcxukGeTUBQhEb5v7WRMjxsSL8/jzy/a7hyrHeRRAoGBAMjXBSq+7hMNZfAJIj/+\n87B7/M17QwtpfsVBcSWrJsIVlKVndcPOF+kgNY0v1ZYQ4J09kev8iNXvIFEJE4ps\nxbNP/lo6IyrPw8KWnWe72sCbPKQtJitS+Wmqf6XN4ZZPCm99sTVlZKRaulJtlLWE\nuis61axrr09dvSJBA9UWHZmy\n-----END PRIVATE KEY-----\n",
+  "client_email": "da-academy@kolesa-android-app.iam.gserviceaccount.com",
+  "client_id": "102692722905589138412",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/da-academy%40kolesa-android-app.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
